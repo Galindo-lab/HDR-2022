@@ -1,0 +1,56 @@
+
+#+MACRO: tagline    Actividad de taller 1.1.2
+#+TITLE:  Exploración de herramientas de modelado
+#+AUTHOR: Luis Eduardo Galindo Amaya (1274895)
+#+DATE:   2022-08-29
+
+#+include: "../includes/template.org"
+
+
+* Información De La Materia
+#+BEGIN_mdframed
+- Asignatura :: \asignatura .
+- Grupo y Periodo :: 341 (2022-2) .
+- Docente :: \docente .
+#+END_mdframed
+
+* Información De La Actividad
+#+BEGIN_mdframed
+- Nombre de la actividad :: Exploración de herramientas de modelado.
+- Fecha :: {{{date}}}
+- Lugar :: Edificio 6E, Salón 204.
+- Carácter de la actividad :: Individual.
+- Participante(es) :: {{{author}}}.
+#+END_mdframed
+
+* Reporte De Actividades
+** Explorando Visual Paradigm
+1. Primero cree un proyecto en Visual Paradigm, simplemente se hace clic en '+' uml.
+[[./img/1.png]]
+
+2. después hice un pequeño modelo en UML
+[[./img/2.png]]
+
+3. exporte el Código del proyecto 
+[[./img/3.png]]
+
+4. y por ultimo lo abrí en pycharm
+[[./img/4.png]]
+
+** Explorando otras herramientas
+Mi herramienta por excelencia para hacer diagramas de cualquier tipo es sin duda plantuml, me gusta porque es muy ligera y los diagramas básicamente se pueden hacer con código y se acomodan solos, nada de drag and drop.
+
+Comparando plantuml y Visual Paradigm es fácil ve porque se preferiría visual paradigm, la habilidad de generar código en base al diagrama o viceversa es muy útil, pero Plantuml es mas útil para hacer diagramas para la universidad o pequeños productos.
+
+
+* Reflexión
+#+BEGIN_mdframed
+Los diagramas son herramientas muy útiles en cualquier ámbito y las herramientas para generar diagramas son la única alternativa real a hacerlos en papel, hay varios enfoques al mismo problema y debemos buscar cual alternativa es mejor para cada caso individual.
+#+END_mdframed
+
+#+BEGIN_CENTER
+Doy fe de que toda la información dada es  completa y correcta. \\
+#+ATTR_LATEX: :width 3cm 
+[[../includes/firma.png]]
+{{{author}}}
+#+END_CENTER

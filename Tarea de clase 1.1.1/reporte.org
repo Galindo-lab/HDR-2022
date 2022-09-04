@@ -1,0 +1,73 @@
+
+#+MACRO:  tagline    Tarea de clase 1.1.1
+#+TITLE:  Esquematización de los componentes de entorno de desarrollo integrado
+#+AUTHOR: Luis Eduardo Galindo Amaya (1274895)
+#+DATE:   2022-08-25
+
+
+#+include: "../includes/template.org"
+
+* Información De La Materia
+#+BEGIN_mdframed
+- Asignatura :: \asignatura .
+- Grupo y Periodo :: 341 (2022-2) .
+- Docente :: \docente .
+#+END_mdframed
+
+* Información De La Actividad
+#+BEGIN_mdframed
+- Nombre de la actividad :: {{{Title}}}
+- Fecha :: {{{date}}}
+- Lugar :: Edificio 6E, Salón 204.
+- Carácter de la actividad :: Individual.
+- Participante(es) :: {{{author}}}.
+#+END_mdframed
+
+* Mapa Mental
+#+name: mapa_mental
+#+BEGIN_SRC plantuml :file ./img/mapa.png
+@startmindmap
+!theme plain
+
+ * IDE
+ **_ Esta compuesto de
+ *** Un editor de código
+ ****_ Permite
+ ***** Acceder al código 
+ ***** Modificarlo fácilmente
+ ***** Aucompletaer el texto
+ *** Compilador o interprete
+ ****_ Es Indispensable Para:
+ ***** Ejecutar código
+ ***** hacer pruebas para el código
+ ***** Ejecutar REPLs
+ *** Depurador de código
+ ****_ Facilita
+ ***** Detectar errores 
+ ***** Definir pruebas concretas 
+ ***** Optimizar código 
+ *** Integración con git u otro VCS
+ ****_ Permite:
+ ***** Mantener un control de versiones 
+ ***** Sincronizar copias en la nube
+ ***** hacer colaboraciones de código
+
+@endmindmap
+#+END_SRC
+
+#+ATTR_HTML:
+#+ATTR_LATEX: :width 13cm
+#+RESULTS: mapa_mental
+[[file:./img/mapa.png]]
+
+* Reflexión
+#+BEGIN_mdframed
+Como profesionales en el diseño de software podemos es necesario que podamos operar herramientas como IDEs para poder integrarnos rápidamente en los equipos, obviamente integrarse en un nuevo grupo de trabajo es tardado pero si se conoce previamente la herramienta de trabajo la transición puede ser menos dolorosa y mas orientada a los asuntos meramente técnicos.
+#+END_mdframed
+
+#+BEGIN_CENTER
+Doy fe de que toda la información dada es  completa y correcta. \\
+#+ATTR_LATEX: :width 3cm 
+[[../includes/firma.png]]
+{{{author}}}
+#+END_CENTER

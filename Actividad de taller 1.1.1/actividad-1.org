@@ -1,0 +1,78 @@
+
+#+MACRO: tagline    Actividad de taller 1.1.1
+#+TITLE:  Exploración de los Componentes de un Entorno de Desarrollo Integrado
+#+AUTHOR: Luis Eduardo Galindo Amaya (1274895)
+#+DATE:   2022-08-23
+
+
+#+include: "../includes/template.org"
+
+# \pagebreak 
+
+* Información De La Materia
+#+BEGIN_mdframed
+- Asignatura :: \asignatura .
+- Grupo y Periodo :: 341 (2022-2) .
+- Docente :: \docente .
+#+END_mdframed
+
+* Información De La Actividad
+#+BEGIN_mdframed
+- Nombre de la actividad :: Práctica de laboratorio 1.1.1: Instalación y configuración de entorno de desarrollo integrado.
+- Fecha :: {{{date}}}
+- Lugar :: Edificio 6E, Salón 204.
+- Carácter de la actividad :: Individual.
+- Participante(es) :: {{{author}}}.
+#+END_mdframed
+
+# * Instrucciones 
+# #+BEGIN_mdframed
+# 1. Descargue e instale de https://code.visualstudio.com/download el entorno de desarrollo integrado (IDE) Visual Studio Code. Haga un primer programa "Hola mundo!" en Java, Python o C++. Instale los complementos necesarios.
+# 2. Descargue e instale de https://www.jetbrains.com/edu-products/download/#section=idea los entornos de desarrollo integrado (IDE) IntelliJ, PyCharm o CLion. Haga un primer programa "Hola mundo!" en Java, Python y C++. Instale los complementos necesarios.
+# 3. Descargue e instale de https://www.eclipse.org/downloads/ los entornos de desarrollo integrado (IDE) Eclipse. Haga un primer programa "Hola mundo!" en Java. Instale los complementos necesarios.
+# 4. Explore los entornos de desarrollo integrados (IDEs) y describa su experiencia de aprendizaje.
+# 5. Haga un reporte de la actividad utilizando la plantilla que se encuentra en la carpeta de recursos del curso y súbala como complemento de ésta actividad.
+# 6. Haga una reflexión acerca de los aprendido en éste taller.
+# #+END_mdframed
+# \pagebreak
+
+* Reporte De Actividades
+** Eclipse
+#+ATTR_LATEX: :width 7.5cm 
+#+caption: 'Hola mundo' en Java, Eclipse IDE
+[[./img/eclipse.png]]
+
+El editor mas veterano de los tres, el estilo de la interfaz es muy propio del software empresarial y conociendo que todavía es parte de algunas de las suites de herramientas de IBM no es nada de lo que hay que sorprenderse.
+
+Los plugins en Eclipse son mas escasos que en otras herramientas y se sienten mas como algo que pusieron después que como algo con lo que se planeo el editor. 
+
+Las herramientas para refactorización de código son un poco mas complicadas de usar, aunque no tuve tanto tiempo para probarlas como me gustaría. El auto completado es bueno, pero no pasa de simplemente mostrar que cosas se encuentran dentro de que paquetes, otros IDEs para java suelen mostrar la documentación de cada función auque imagino que es posible activar esta función en algún lugar o con algún plugin.  
+
+** Pycharm
+Se siente muy robusta y tiene una interfaz muy moderna, siento que cumple todo lo que un IDE debería tener: herramientas de refactorizacion, plugins, auto completado, herramientas para hacer debugging etc. La única critica que podría hacer es que es demasiado lento, usualmente los IDEs son muy lentos pero particularmente los producto de Intellij son particularmente lentas, el catalogo de plugins también es un poco pequeño a comparación de otros editores.
+
+#+ATTR_LATEX: :width 7.5cm 
+#+caption: 'Hola mundo' en Python, Pycharm IDE
+[[./img/pycharm.png]]
+
+
+** Visual Estudio Code
+La apuesta de Microsoft en los editores de código, a comparación de Eclipse y pycharm no tiene casi herramientas montadas con el editor sin embargo a pesar de eso puede obtener esta funcionalidad por medio de su sistema de plugins que sin duda es el mas amplio de los tres, hay plugins de herramientas muy especificas y soporte para casi todos los lenguajes existentes desde c hasta elixir, VS-Code es una alternativa mas ligera pero con menos funcionalidad fuera de la caja y esta en manos del usuario convertir VS-Code en algo que sea funcional para su trabajo.
+
+#+ATTR_LATEX: :width 7.5cm 
+#+caption: 'Hola mundo' en Python, Visual studio code
+[[./img/visual-studio.png]]
+
+\pagebreak
+
+* Reflexión
+#+BEGIN_mdframed
+En mi opinión a comparación de los editores de texto tradicionales los IDEs son herramientas muy pesas y muy complejas para cualquier edición casual de código sin embargo ese no es su objetivo, la principal ventajas de un IDE es unificar todas las herramientas que un desarrollador pude llegar a utilizar permite cierto entendimiento común entre los integrantes del equipo sin importar que tan experimentados sean con el lenguaje todos tienen a su disposición las herramientas necesarias para poder ser productivos.
+#+END_mdframed
+
+#+BEGIN_CENTER
+Doy fe de que toda la información dada es  completa y correcta. \\
+#+ATTR_LATEX: :width 3cm 
+[[../includes/firma.png]]
+{{{author}}}
+#+END_CENTER
