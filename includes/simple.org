@@ -1,7 +1,7 @@
 
-#+LATEX_CLASS: article 
+#+LATEX_CLASS: article
 #+LATEX_CLASS_OPTIONS: [12pt]
-#+OPTIONS: \n:nil num:nil toc:nil title:nil
+#+OPTIONS: \n:nil num:nil toc:nil 
 
 # Ajustar el lenguaje de babel ------------------------------------------------
 #+LATEX_HEADER: \usepackage[spanish]{babel}
@@ -12,11 +12,11 @@
 #+LATEX_HEADER: \geometry{ a4paper, left=1in, right=1in, top=1in, bottom=1in }
 
 # Cambiar la tipografia -------------------------------------------------------
-#+LATEX_HEADER: \renewcommand\familydefault{\sfdefault} 
+#+LATEX_HEADER: \renewcommand\familydefault{\sfdefault}
 
 # Cambiar la tipografia en los titulos ----------------------------------------
 #+LATEX_HEADER: \usepackage{sectsty}
-#+LATEX_HEADER: \sectionfont{\normalfont\large }
+# #+LATEX_HEADER: \sectionfont{\normalfont\Large }
 # #+LATEX_HEADER: \subsectionfont{\normalfont\normalsize}
 
 # majores tablas --------------------------------------------------------------
@@ -27,10 +27,10 @@
 #+LATEX_HEADER: \lstdefinestyle{mystyle}{
 #+LATEX_HEADER:    numbers=left,
 #+LATEX_HEADER:    showspaces=false,
-#+LATEX_HEADER:    frame=leftline, 
+#+LATEX_HEADER:    frame=leftline,
 #+LATEX_HEADER:    showspaces=false,
-#+LATEX_HEADER:    showstringspaces=false, 
-#+LATEX_HEADER:    showtabs=false, 
+#+LATEX_HEADER:    showstringspaces=false,
+#+LATEX_HEADER:    showtabs=false,
 #+LATEX_HEADER:    numberstyle=\tiny,
 #+LATEX_HEADER: }
 
@@ -55,10 +55,7 @@
 #+LATEX_HEADER: }
 
 # obtener los valores de los matadatos ----------------------------------------
-#+LATEX_HEADER: \makeatletter 
-
-#+LATEX_HEADER: \usepackage{fancyhdr}
-#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \makeatletter
 
 #+LATEX_HEADER_EXTRA: \usepackage{mdframed}
 #+LATEX_HEADER_EXTRA: \BeforeBeginEnvironment{minted}{\begin{mdframed}}
@@ -72,68 +69,7 @@
 \newcommand{\asignatura}{Herramientas de Desarrollo de Software (40017)}
 \newcommand{\semestre}{2022-2}
 
-\newcommand{\miportada}[1]{
-	\begin{titlepage}
-		\vspace*{0.75in}
-		\begin{flushleft}
-			\sffamily
-			\large #1       \\
-			\Huge 
-            \@title         \\
-			\hrulefill
-			\vspace{0.25in} \\
-			\Large \@author \\
-			\vspace*{\fill}
-            \includegraphics[width=\textwidth]{../includes/filler.png} \\
-			\vspace*{\fill}
-			\large
-			\begin{tabular}{|l|l|}
-              \hline
-			  Asignatura & \asignatura \\
-			  Docente    & \docente    \\
-			  Fecha      & \@date      \\
-              \hline
-			\end{tabular}
-		\end{flushleft}
-	\end{titlepage}
-}
-
-#+END_EXPORT
-
-# \miportada{ {{{tagline}}} }
-
-#+BEGIN_EXPORT latex
-\fancyhf{}
-\lhead{ \asignatura }
-\rhead{ \semestre }
-\rfoot{Página \thepage}
-
-\setlength\parindent{0pt}   % eliminar el intentado
+%\setlength\parindent{0pt}   % eliminar el intentado
 \setlength{\parskip}{1.2em}
-% \maketitle
 
-\thispagestyle{empty}
-\begin{center}
-	{\large
-		UNIVERSIDAD AUTÓNOMA DE BAJA CALIFORNIA \\
-		Facultad de Ciencias Químicas e Ingeniería }
-	\vspace{0.25in} \\
-	Programa de Ingeniero en Software y Tecnologías Emergentes
-\end{center}
 #+END_EXPORT
-
-* Información De La Materia
-#+BEGIN_mdframed
-- Asignatura :: \asignatura .
-- Grupo y Periodo :: 341 (2022-2) .
-- Docente :: \docente .
-#+END_mdframed
-
-* Información De La Actividad
-#+BEGIN_mdframed
-- Nombre de la actividad :: {{{Title}}}
-- Fecha :: {{{date}}}
-- Lugar :: Edificio 6E, Salón 204.
-- Carácter de la actividad :: Individual.
-- Participante(es) :: {{{author}}}.
-#+END_mdframed

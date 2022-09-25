@@ -1,0 +1,40 @@
+#+TITLE:  Exploración de los componentes de una interfaz de usuario
+#+AUTHOR: Luis Eduardo Galindo Amaya (1274895)
+#+DATE:   2022-09-12
+
+#+MACRO:  tagline    Actividad de taller 1.1.3
+#+include: "../includes/template.org"
+
+* Reporte De Actividades
+** Visual Paradigm
+Las herramientas son bastante buenas aunque no tiene mucha variedad en tipografías pero una solución bastante solida, quizá le falta una opción colaborativa pero por el resto esta bastante bien.
+
+[[file:img/VP.png]]
+
+** mockittapp
+Muy sencilla de usar, quizá en un par de horas de usarla puedes hacer unos diseños muy buenos además que se pueden ajustar todos los parámetros de los labels.
+
+[[file:img/mockittapp.png]]
+
+** gomockingbird
+Una solución mas orientada a las paginas web quizá tiene un layout muy permisivo y no tiene ningún gris para orientarse.
+
+[[file:img/gomockingbird.png]]
+
+** figma
+Realmente me tomo bastante rato entender como funciona Figma, me imagino que puede ser una herramienta muy poderosa gracias a sus plugins pero su curva de aprendizaje es un poco mas empinada.
+
+[[file:img/figma.png]]
+
+
+* Reflexión
+#+BEGIN_mdframed
+Las interfaces de usuario son indispensables al momento de diseñar un proyecto, que el stakeholder pueda ver como se como sera el proyecto le permite saber si lo que estamos haciendo cumple sus necesidades.
+#+END_mdframed
+
+#+BEGIN_CENTER
+Doy fe de que toda la información dada es  completa y correcta. \\
+#+ATTR_LATEX: :width 3cm 
+[[../includes/firma.png]]
+{{{author}}}
+#+END_CENTER

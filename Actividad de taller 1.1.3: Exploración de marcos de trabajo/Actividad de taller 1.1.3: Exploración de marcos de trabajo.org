@@ -1,0 +1,48 @@
+#+TITLE:  Exploración de marcos de trabajo.
+#+AUTHOR: Luis Eduardo Galindo Amaya (1274895)
+#+DATE:   2022-09-10
+
+#+MACRO:  tagline    Actividad de taller 1.1.3
+#+include: "../includes/template.org"
+
+* Reporte De Actividades
+** Spring
+Fue la mas tardada en usar pero sin duda es la que se siente mas robusta de las cuatro, el paradigma de java funciona muy bien con este tipo de aplicaciones web.
+
+[[file:img/Spring-codigo.png]]
+
+[[file:img/Spring-navegador.png]]
+
+[[file:img/Spring-parametro.png]]
+
+** JavaFx
+Este es otro paquete para hacer GUIs en java, tenemos AWT y swing pero javafx se siente mas pulido que los últimos dos, tomando en cuenta que su forma de estilar las aplicaciones es por medio de css se siente mucho mas atemporal que swing pero es muchísimo mas demandante. 
+
+[[file:img/fx-code.png]]
+
+[[file:img/fx-out.png]]
+
+** Django
+Crear aplicaciones web en Django es muchísimo mas sencillo que en Spring, puede ser que sea menos robusto pero es mas fácil de montar un proyecto y lanzarlo pronto en Django que en Spring. 
+
+[[file:img/django-code.png]]
+
+[[file:img/django-polls.png]]
+
+** tktinker
+Es un paquete para crear GUIs en python, nada destacable mas que su facilidad de uso pero puede ayudarnos a crear una aplicacion multiplataforma mas facilmente.
+
+[[file:img/tk.png]]
+
+
+* Reflexión
+#+BEGIN_mdframed
+Las herramientas que revisamos son muy interesantes a que reflejan los dos modos de operacion para el ususario as comunes, por medio del navegador y por medio de una GUI, tradicionalmente usamos interfaces de terminal para hacer nuestros proyectos pero en nuestro dia a dia (normalmente) no solemos usarlas y que es mas sencillo usar las herramientas en un medio grafico. 
+#+END_mdframed
+
+#+BEGIN_CENTER
+Doy fe de que toda la información dada es  completa y correcta. \\
+#+ATTR_LATEX: :width 3cm 
+[[../includes/firma.png]]
+{{{author}}}
+#+END_CENTER
